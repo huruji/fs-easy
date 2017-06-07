@@ -1,7 +1,6 @@
 var fs = require('fs');
 
 function touch(path, callback) {
-  console.log('safsaf');
   var pathArr = path.toString().split('/');
   for(var i = 1; i < pathArr.length; i++) {
     var newPath = pathArr.slice(0,i+1).join('/');
