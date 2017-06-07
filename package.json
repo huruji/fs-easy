@@ -1,7 +1,7 @@
 {
   "name": "fs-easy",
   "version": "0.0.1",
-  "description": "An easy use libraray\u001b[\u001b[\u001b[C\u001by for node.js",
+  "description": "An easy use libraray for node.js",
   "main": "index.js",
   "directories": {
     "doc": "doc",
