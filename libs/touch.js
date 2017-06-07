@@ -8,7 +8,6 @@ function touch(path, callback) {
     if(exists) {
       return;
     }
-    console.log(newPath);
     if(i === (pathArr.length - 1)) {
       var fd = fs.openSync(newPath, 'w');
       fs.closeSync(fd);
